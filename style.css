@@ -1,0 +1,256 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+  }
+header{
+    height: auto;
+}
+nav{
+    background-color: #f38e59;
+    z-index: -1;
+}
+header {
+    position: sticky;
+    top: 0;
+}
+.container{
+        display: flex;
+    justify-content: space-around;
+    
+}
+ul {
+    list-style-type: none;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(236, 236, 247);
+}
+.list1{
+    width: 60%;
+}
+.list2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn1{
+    margin-left: 30px;
+    background-color: #f38e59;
+    padding: 10px;
+    border-style: solid;
+    border:solid 1px #ffff;
+    border-radius: 5px;
+    
+}
+.btn2{
+    background-color: black;
+    color: #ffff;
+    padding: 10px;
+    border:solid 1px rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.section1{
+    text-align: center;
+    padding: 5%;
+    background-color: #f38e59;
+}
+
+.title1{
+    color: white;
+    margin: 30px;
+    font-size: 85px;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    height: 25px;
+    width: 500px;
+    background: #FFFFFF;
+    border: 1px solid #ceceda;
+    margin-top: 27px;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    opacity: 0.7;
+    
+}
+.form3{
+    height: 40px;
+    width: 100px;
+    background: #f38e59;
+    border: #f38e59;
+    border-radius: 5px;
+    border-style: solid;
+   margin-left: 420px;
+   margin-top: 25px;
+}
+
+
+form input{
+padding:10px;
+
+}
+
+
+.main1{
+    width: 50%;
+   margin-left: 90px;
+   margin-top: 90px;
+   margin-bottom: 90px;
+}
+
+.hola{
+    display: flex;
+}
+.space{
+    display: flex;
+    justify-content: space-around;
+}
+i { margin-top: 30px;
+    color: #f38e59;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .container1 {
+        flex:1 1 200px;
+        column-gap: 100px;
+        margin: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 110%;
+        color: rgb(90, 86, 86);
+    }
+    .container1 a{
+        list-style-type: none;
+        text-decoration: none;
+    
+    }
+    
+    
+        .article1{
+            padding-left:67px;
+            margin-top:-60px ;
+        }
+    article a {
+        color: #eb9c71;
+    }
+    p a {
+        color: #eb9c71;
+    }
+    h2{
+        color: #5BB5DE;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .go{
+        font-size: 110%;
+    color: rgb(90, 86, 86);
+    }
+    
+.leftside{
+
+         margin-right: 150px;
+         margin-top: 40px;
+}
+h4{ 
+    display: block;
+}
+#message{
+ height: 80px;
+ 
+}
+
+i {
+    font-size: 50px;
+    color: #f59b6b;
+}
+
+#hi {
+    padding-bottom: 30px;
+    padding-right: 10px;
+}
+#he{
+    position: absolute;
+    top: 699px;
+    left: 980px;
+}
+#ha{
+position: absolute;
+}
+footer {
+    background-color: #404040;
+    display: flex;
+    justify-content:space-around;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 30px 60px 60px 60PX;
+
+}
+.insidefooter{
+    color:#FFFFFF ;
+
+}
+.insidef {
+    color: #999090;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 13px;
+    margin-left: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ ul li {
+    list-style-type: none;
+
+}
+.logom{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+
+}
+
+
+.button3 {
+    border: 0;
+    font-size: 16px;
+    padding: 16px;
+    border-radius:3px ;
+    background-color: #F38E59;
+    color:#FFFBFB ;
+    margin-left: 260px;
+}
+.button4{
+    border: 0;
+    font-size: 12px;
+    padding: 15px ;
+    border-radius: 10px ;
+    line-height: 1.5;
+    background:  #02202F;
+    color: #FFFBFB;
+    margin-top: 5px;
+    width: 100%;
+
+}
+.lastfooter{
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+#size1{
+   font-size: 87%;
+   margin-left: 140px;
+}
+.size{
+    font-size: 130%;
+    
+}
+span{
+    color: #f59b6b;
+}
